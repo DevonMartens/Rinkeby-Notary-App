@@ -2,6 +2,7 @@ const HDWallet = require("truffle-hdwallet-provider");
 const infuraEndpoint = "";
 const metamaskSeed = "";
 
+
 module.exports = {
 
   networks: {
@@ -13,8 +14,8 @@ module.exports = {
     rinkeby: {
       provider: () => new HDWallet(metamaskSeed, infuraEndpoint),
       network_id: 4,
-      gas: 45000000,
-      gasPrice: 10000000000,
+      // gas: 45000000,
+      // gasPrice: 10000000000,
     }
 
   },
