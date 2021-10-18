@@ -13,7 +13,7 @@ module.exports = {
     rinkeby: {
       provider: () => new HDWallet(metamaskSeed, infuraEndpoint),
       network_id: 4,
-      gas: 4500000,
+      gas: 45000000,
       gasPrice: 10000000000,
     }
 
