@@ -1,4 +1,4 @@
-const HDWallet = require("@truffle/hdwallet-provider");
+const HDWallet = require("truffle-hdwallet-provider");
 const infuraEndpoint = "";
 const metamaskSeed = "";
 
